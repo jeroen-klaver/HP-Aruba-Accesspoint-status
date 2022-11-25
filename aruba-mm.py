@@ -6,6 +6,8 @@ import urllib3
 # Surpress error messages for controllers without SSL certificates
 #urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+
+#login
 url = "https://192.168.100.2:4343/v1/api/login"
 
 payload={'username': 'admin',
