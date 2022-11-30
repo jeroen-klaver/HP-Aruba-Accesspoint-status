@@ -46,7 +46,7 @@ import time
 time.sleep(5)
 
 
-#Logout. Otherswise errer: WebUI session limit reached
+#Logout. Otherswise error: WebUI session limit reached
 url = ("https://192.168.100.2:4343/v1/api/logout")
 payload={}
 files={}
